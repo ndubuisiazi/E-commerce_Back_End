@@ -33,7 +33,7 @@ router.put('/:id', async (req, res) => {
     },{
       where: {
         id: req.params.id}})
-        return res.json(tagData);
+        return res.json(TagData);
 });
 
 router.delete('/:id', (req, res) => {
